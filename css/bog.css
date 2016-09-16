@@ -1,4 +1,12 @@
-#blog h3, h4{
+#blog h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+#blog h4{
     text-align: center;
 }
 
@@ -6,6 +14,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 #blog article{
