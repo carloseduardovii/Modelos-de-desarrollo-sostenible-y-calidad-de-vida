@@ -1,6 +1,6 @@
-@face-fonts url(fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet");
-@import url(menustyle.css);
-@import url(slider.css);
+@face-fonts url(pages/fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet");
+@import url(banner.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -41,11 +41,6 @@ section{
     margin-bottom: 25px;
 }
 
-.welcome {
-    text-align: center;
-    width: 98%;
-         
-}
 
 /* FOOTER */
 
@@ -67,6 +62,7 @@ footer .container{
 
 .container p{
     color: #fff;
+    
 }
 
 .social-networks{
