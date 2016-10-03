@@ -56,13 +56,18 @@
 
 #banner h2{
     font-size: 32px;
-    color: #feff47;
+    color: white;
+    font-style: italic;
+    text-shadow: 4px 4px black;
+    
 }
 
 #banner p{
     font-size: 23px;
     font-family: cursive;
-    color: #feff47;
+    color: white;
+    font-style: italic;
+    text-shadow: 4px 4px black;
 }
 
 #banner a{

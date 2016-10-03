@@ -67,12 +67,14 @@ section{
 #banner h2{
     font-size: 29px;
     color: #333;
+    text-shadow: 3px 3px black;
 }
 
 #banner p{
     font-size: 22px;
     text-align: justify;
     color: #fff;
+    text-shadow: 3px 3px black;
 }
 
                         /* FOOTER */
