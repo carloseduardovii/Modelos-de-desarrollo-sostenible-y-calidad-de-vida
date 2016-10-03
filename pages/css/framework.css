@@ -44,13 +44,16 @@ section{
 
 section h2{
     font-size: 40px;
+    margin-left: 2%;
     margin-bottom: 3%;
 }
 
 #leaf .page{
     width: 95%;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
     border: solid black;
+    padding-top: 3%;
     padding-bottom: 30px;
 }
 
@@ -59,6 +62,8 @@ section h2{
     font-family: sans-serif;
     text-align: justify;
     color: black;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 span{
