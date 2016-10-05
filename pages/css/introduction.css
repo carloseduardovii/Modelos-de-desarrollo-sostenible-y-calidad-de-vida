@@ -104,32 +104,35 @@ footer .container{
                 /*RESPONSIVE*/
 
 @media (min-width:320px){
-    header{
-    width: 100%;
-    height: 40px;
+     #banner{
+        height: 1255px;
+        overflow: hidden;
     }
     
-    
-    .container{
-        width: 600px;
+     #banner h2{
+        font-size: 1.6em;
     }
-    section h2{
-        font-size: 25px;
-        margin-bottom: 3%;
+    
+     #banner p{
+        font-size: 1em;
+    }
+        
+     #banner .container{
+        margin-top: 10%;
     } 
-    #banner p{
-        font-size: 12px;
-        font-family: sans-serif;
-        text-align: justify;
-        color: black;
-}
+    
+   .copy {
+    font-size: 13px;   
+    } 
+    
+  .social-networks{
+    font-size: 22px;  
+    }   
+    
     img{
-        flex: auto;
-        border-top: 15px solid white;
-        border-left: 5px solid white;
-        border-right: 15px solid white;
-        width: 30%;
+        width: 40%;
     }
+    
 }
 
 
@@ -137,7 +140,11 @@ footer .container{
 @media (min-width:768px){
     .container{
         width: 800px;
-}
+    }
+    
+    #banner{
+        height: 100%;
+    }
     section h2{
         font-size: 33px;
         margin-bottom: 3%;
@@ -148,6 +155,10 @@ footer .container{
         text-align: justify;
         color: black;
 }
+    #banner .container{
+        margin-top: 2%;
+    } 
+    
     img{
         float: left;
         border-top: 25px solid white;
@@ -155,29 +166,15 @@ footer .container{
         border-right: 12px solid white;
         width: 33%;
     }
+    
+    .copy {
+    font-size: 1.3em;   
+    } 
 
 }
     
     @media (min-width:1024px){
     .container{
         width: 1150px;
-    }
-   
-    section h2{
-        font-size: 40px;
-        margin-bottom: 3%;
-    } 
-    #banner p{
-        font-size: 22px;
-        font-family: sans-serif;
-        text-align: justify;
-        color: black;
-}
-    img{
-        float: left;
-        border-top: 30px solid white;
-        border-left: 10px solid white;
-        border-right: 15px solid white;
-        width: 35%;
     }
 }
