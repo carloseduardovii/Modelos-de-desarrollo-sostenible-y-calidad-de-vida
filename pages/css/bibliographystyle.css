@@ -9,6 +9,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    background-color: #f692d3
 }
 
 header{
@@ -26,6 +27,7 @@ header{
 .container{
     width: 98%;
     margin: auto;
+    font-family: cursive;
 }
 
 h1{
